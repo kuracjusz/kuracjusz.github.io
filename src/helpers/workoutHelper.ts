@@ -14,6 +14,8 @@ export const workoutBoiler: WorkoutType = {
   id: undefined,
 };
 
+export const workoutFromDialog: WorkoutType = workoutBoiler;
+
 export const getPreviousWorkout = (
   workouts: WorkoutType[],
   workoutName: WorkoutNamesType,

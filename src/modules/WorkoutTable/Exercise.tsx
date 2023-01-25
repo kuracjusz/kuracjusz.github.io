@@ -1,6 +1,6 @@
 import { TableRow } from "@mui/material";
+import { workoutFromDialog } from "../../helpers/workoutHelper";
 import { Exercise as ExerciseType } from "../Workouts/types";
-import { workoutFromDialog } from "./WorkoutTable";
 import { StyledInput, StyledTableCell } from "./WorkoutTable.view";
 
 type ExerciseProps = {

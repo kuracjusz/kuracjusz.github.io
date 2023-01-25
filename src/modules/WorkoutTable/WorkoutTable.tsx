@@ -15,10 +15,8 @@ import {
 import { WorkoutSelect } from "../ConfigModal/ConfigModal.view";
 import { WorkoutType } from "../Workouts/types";
 
-import { workoutBoiler, workoutNames } from "../../helpers/workoutHelper";
+import { workoutFromDialog, workoutNames } from "../../helpers/workoutHelper";
 import Exercise from "./Exercise";
-
-export const workoutFromDialog: WorkoutType = workoutBoiler;
 
 export const handleInputChange = (
   e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,

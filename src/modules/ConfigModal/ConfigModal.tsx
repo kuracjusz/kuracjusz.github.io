@@ -10,9 +10,13 @@ import {
   setWorkoutsToStorage,
 } from "../../services/storageService";
 import { WorkoutNamesType, WorkoutType } from "../Workouts/types";
-import { getPreviousWorkout, workoutNames } from "../../helpers/workoutHelper";
+import {
+  getPreviousWorkout,
+  workoutFromDialog,
+  workoutNames,
+} from "../../helpers/workoutHelper";
 import { useWorkoutValue } from "../../context/WorkoutContext";
-import WorkoutTable, { workoutFromDialog } from "../WorkoutTable/WorkoutTable";
+import WorkoutTable from "../WorkoutTable/WorkoutTable";
 
 export interface SimpleDialogProps {
   buttonHandler?: () => void;

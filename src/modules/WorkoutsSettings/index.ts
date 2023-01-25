@@ -1,1 +1,1 @@
-export { default as WorkoutsSetting } from "./WorkoutsSettings";
+export { default } from "./WorkoutsSettings";

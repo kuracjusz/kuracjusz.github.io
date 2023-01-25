@@ -66,8 +66,6 @@ function SortingPanel() {
     });
 
     dispatchWorkout(filteredWorkouts);
-
-    console.log(filteredWorkouts);
   }, [dispatchWorkout, sortState]);
 
   const handleGridChange = (e: MouseEvent<HTMLElement>) => {
@@ -84,7 +82,7 @@ function SortingPanel() {
     }));
   };
 
-  const handleSorting = (e: MouseEvent<HTMLElement>) => {
+  const handleSorting = () => {
     // const target = e.target as HTMLInputElement;
     // setToStorage("grid")(target.value);
     // dispatchGridLayout(target.value as GridLayoutType);
