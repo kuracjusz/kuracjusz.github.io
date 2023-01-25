@@ -1,0 +1,51 @@
+{
+  "name": "workouts",
+  "version": "1.0.0",
+  "description": "App will help you with workut development.",
+  "scripts": {
+    "lint:fix": "eslint --fix .",
+    "lint": "eslint .",
+    "build": "parcel build",
+    "start": "parcel serve -p 3000",
+    "prepare": "husky install"
+  },
+  "source": "src/public/index.html",
+  "types": "dist/types.d.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "author": "kuracjusz",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/packager-ts": "2.6.2",
+    "@parcel/transformer-typescript-types": "2.6.2",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "parcel": "^2.6.2",
+    "prettier": "^2.8.3",
+    "process": "^0.11.10",
+    "typescript": ">=3.0.0",
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.9.2",
+    "@types/uuid": "^8.3.4",
+    "date-fns": "^2.29.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.0"
+  }
+}

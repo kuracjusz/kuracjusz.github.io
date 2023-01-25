@@ -1,0 +1,15 @@
+html {
+  /* background-color: #444; */
+}
+
+body {
+  background-color: #111;
+  /* color: white; */
+}
+
+#app {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
