@@ -5,7 +5,7 @@
   "scripts": {
     "lint:fix": "eslint --fix .",
     "lint": "eslint .",
-    "build": "rm -rf docs/* && parcel build scr/public/index.html --public-url ./ -d docs",
+    "build": "rm -rf docs/* && parcel build src/public/index.html --public-url ./docs",
     "start": "parcel serve -p 3000",
     "prepare": "husky install"
   },
