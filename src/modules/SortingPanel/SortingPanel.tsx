@@ -6,7 +6,7 @@ import {
 import { ChangeEvent, MouseEvent, useEffect, useState } from "react";
 import GridViewIcon from "@mui/icons-material/GridView";
 import SortIcon from "@mui/icons-material/Sort";
-import SplitScreenIcon from "@mui/icons-material/SplitScreen";
+// import SplitScreenIcon from "@mui/icons-material/SplitScreen";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import { workoutNames } from "../../helpers/workoutHelper";
@@ -132,7 +132,7 @@ function SortingPanel() {
             <GridViewIcon />
           </StyledToggleButton>
           <StyledToggleButton selected={gridPanel === "1"} value="1">
-            <SplitScreenIcon />
+             // <SplitScreenIcon />
           </StyledToggleButton>
         </ToggleButtonGroup>
       </SortingGroupIcons>
