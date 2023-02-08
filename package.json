@@ -9,10 +9,6 @@
     "start": "parcel serve -p 3000",
     "prepare": "husky install"
   },
-  "source": "src/public/index.html",
-  "types": "dist/types.d.ts",
-  "main": "dist/main.js",
-  "module": "dist/module.js",
   "author": "kuracjusz",
   "license": "MIT",
   "devDependencies": {
