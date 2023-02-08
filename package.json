@@ -8,7 +8,7 @@
     "build": "parcel build",
     "start": "parcel serve -p 3000",
     "prepare": "husky install"
-  }.
+  },
   "main": "dist/main.js",
   "author": "kuracjusz",
   "license": "MIT",
