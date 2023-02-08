@@ -36,6 +36,11 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+      - name: yarn, build and test
+        run: |
+          yarn
+          yarn build
+          yarn test
 
   # Deployment job
   deploy:
