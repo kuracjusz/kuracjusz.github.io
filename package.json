@@ -5,14 +5,10 @@
   "scripts": {
     "lint:fix": "eslint --fix .",
     "lint": "eslint .",
-    "build": "parcel build",
+    "build": "parcel build src/public/index.html",
     "start": "parcel serve -p 3000",
     "prepare": "husky install"
   },
-  "source": "src/public/index.html",
-  "types": "dist/types.d.ts",
-  "main": "dist/main.js",
-  "module": "dist/module.js",
   "author": "kuracjusz",
   "license": "MIT",
   "devDependencies": {
